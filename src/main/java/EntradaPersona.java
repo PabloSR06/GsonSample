@@ -11,8 +11,11 @@ public class EntradaPersona {
 		
 		Persona p = new Persona();
 		
+		System.out.println("Nombre: ");
 		p.nombre = in.nextLine();
+		System.out.println("Apellidos: ");
 		p.Apellidos = in.nextLine();
+		System.out.println("Edad: ");
 		p.Edad = in.nextInt();
 		
 		Gson gson = new GsonBuilder().setPrettyPrinting().create();
